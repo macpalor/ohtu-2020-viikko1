@@ -132,7 +132,7 @@ public class VarastoTest {
     public void varastonTyhjennysPalauttaaOikein() {
         varasto.lisaaVarastoon(8);
         double otettuMaara = varasto.otaVarastosta(9);
-        assertEquals(7, otettuMaara, vertailuTarkkuus);
+        assertEquals(8, otettuMaara, vertailuTarkkuus);
     }
     
     
