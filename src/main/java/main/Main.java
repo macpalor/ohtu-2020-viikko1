@@ -21,7 +21,5 @@ public class Main {
         System.out.println("Lisätään 50.7");
         mehua.lisaaVarastoon(50.7);
         System.out.println("Mehuvarasto: " + mehua);
-        System.out.println("test");
-        System.out.println("test");
     }
 }
